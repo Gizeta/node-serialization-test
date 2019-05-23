@@ -1,0 +1,33 @@
+{
+  "name": "node-serialization-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "benchmark": "node ./benchmark/main.js",
+    "build": "node-gyp rebuild",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gizeta/node-serialization-test.git"
+  },
+  "keywords": [],
+  "author": "Gizeta",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Gizeta/node-serialization-test/issues"
+  },
+  "homepage": "https://github.com/Gizeta/node-serialization-test#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "msgpack": "^1.0.2",
+    "msgpack-lite": "^0.1.26",
+    "node-addon-api": "^1.6.3"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "microtime": "^3.0.0",
+    "mocha": "^6.1.4"
+  }
+}
